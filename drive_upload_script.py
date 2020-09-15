@@ -55,7 +55,7 @@ celeba_list = os.listdir(file_path)
 
 
 for i in celeba_list[500:]:
-    uploadFile(file_path+"/"+i, i, "11Qwa0SgwmI_1zGElOpwMhL1VIPwVxcpa")
+    uploadFile(file_path+"/"+i, i)
     print(i)
 
     
